@@ -1,5 +1,5 @@
 const navLinks = document.querySelectorAll('.navbar a:not(.home)');
-console.log(navLinks);
+
 
 
 function main() {

@@ -13,7 +13,8 @@ body {
 .nav-container {
     width: 100%;
     display: flex;
-    height: 80px;
+    height: 60px;
+    position: fixed;
 }
 .navbar {
     display: flex;
@@ -21,41 +22,48 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;
-    background: #212121;
+    background: #EEEEEE;
+    /*background: #212121;*/
 }
 
 .navbar a{
     font-weight: 400;
     text-decoration: none;
     text-align: center;
-    font-size: 1.2em;
-    background: #212121;
-    color: #ebf0f6;
+    font-size: 1em;
+    background: #EEEEEE;
+    color: #363636;
 }
 
 .home {
     text-align: left;
-    position: relative;
-    margin-right: 10px !important;
-    margin-left: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px !important;    
+    padding-left: 40px;
+    padding-right: 40px;
     font-weight: bolder !important;
-    font-size: 2em !important;
-    background: #ebf0f6 !important;
-    color: #212121 !important;
+    font-size: 1.5em !important;
+    background: #363636 !important;
+    color: #EEEEEE !important;
     font-family: 'Roboto', 'sans-serif' !important;
-    padding: 0.4em;
+    height: 100%;
 }
 
 .about, .projects {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    padding: 1em;
+    margin-right: 10px !important;    
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
+    height: 100%;
 }
 .navbar .navclick {
-    color: #212121 !important;
-    background: #ebf0f6 !important;
+    color: #EEEEEE !important;
+    background: #363636 !important;
 }
 
 /*Footer*/
@@ -66,7 +74,7 @@ body {
     position: fixed;
     justify-content: center;
     align-items: center;
-    background: #212121;
-    color: #ebf0f6;
+    background: #EEEEEE;
+    color: #363636;
     bottom: 0;
 }
